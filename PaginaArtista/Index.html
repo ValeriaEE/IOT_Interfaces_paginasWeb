@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Índice</title>
+  <style>
+    body {
+      background-image: url("FondoIndice.jpeg");
+      background-size: cover;       
+      background-position: center;  
+      height: 100vh;                
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: rgb(241, 75, 103);
+      font-size: 70px;
+      text-shadow: 2px 2px 5px black;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color:  rgb(241, 75, 103);
+      font-size: 50px;
+      text-shadow: 2px 2px 5px black;
+      margin-bottom: 50px;
+    }
+
+    .boton {
+      background-color: blueviolet;
+      color: black;
+      border: none;
+      padding: 15px 30px;
+      margin: 10px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .boton:hover {
+      background-color: blueviolet;
+      color: white;
+      box-shadow: 0 0 10px white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Índice</h1>
+  <h2>Banda: Los Espiritus</h2>
+
+  <button class="boton" onclick="location.href='Inline.html'">Ir a Inline</button>
+  <button class="boton" onclick="location.href='Externa.html'">Ir a Externa</button>
+  <button class="boton" onclick="location.href='Interna.html'">Ir a Interna</button>
+</body>
+</html>
