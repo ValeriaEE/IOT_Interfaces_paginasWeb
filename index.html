@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Índice</title>
+  <style>
+    body {
+      background-image: url("FondoIndice.jpeg");
+      background-size: cover;       /* que la imagen cubra toda la pantalla */
+      background-position: center;  /* centrada */
+      height: 100vh;                /* ocupa toda la ventana */
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: pink;
+      font-size: 70px;
+      text-shadow: 2px 2px 5px black;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: pink;
+      font-size: 50px;
+      text-shadow: 2px 2px 5px black;
+      margin-bottom: 50px;
+    }
+
+    .boton {
+      background-color: hotpink;
+      color: black;
+      border: none;
+      padding: 15px 30px;
+      margin: 10px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .boton:hover {
+      background-color: pink;
+      color: white;
+      box-shadow: 0 0 10px white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Índice</h1>
+  <h2>Valeria Escalante</h2>
+
+  <button class="boton" onclick="location.href='PrimeraPagina/index.html'">Ir a Página 1</button>
+  <button class="boton" onclick="location.href='PaginaArtista/Index.html'">Ir a Página 2</button>
+</body>
+</html>
